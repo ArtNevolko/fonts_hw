@@ -15,19 +15,19 @@
 	<header class="header">
 		<div class="container">
 			<nav class="nav">
-				<span class="nav-item">ENG</span>
+				<span class="nav-lang">ENG</span>
 				<span class="nav-item">DOCUMENTATION / WHO'S USING</span>
 			</nav>
-			<img src="./img/logo.png" alt="KONSTRUKT Logo" class="logo" id="site-logo">
+			<img src="./img/logo.png" alt="KONSTRUKT Logo">
 		</div>
 	</header>
 	<main class="main-content">
 		<div class="container">
 			<section class="section">
-				<header class="section-header">
+				<div class="section-header">
 					<h2 class="section-title">INTRODUCTION</h2>
 					<span class="chapter-number">Chapter 1</span>
-				</header>
+				</div>
 				<div class="section-content">
 					<p>Welcome to the very start of your React Native journey! If you're looking for environment setup
 						instructions, they've moved to <a href="#" class="link">their own section</a>. Continue reading for an
@@ -35,37 +35,42 @@
 				</div>
 			</section>
 			<section class="section">
-				<header class="section-header">
+				<div class="section-header">
 					<h2 class="section-title">CORE COMPONENTS</h2>
 					<span class="chapter-number">Chapter 2</span>
-				</header>
+				</div>
 				<div class="section-content">
 					<p>React Native is an open source framework for building Android and iOS applications using React and the
 						app platform's native capabilities. With React Native, you use JavaScript to access your platform's
 						APIs
-						as well as to describe the appearance and behavior of your UI using React components: <em>bundles of
-							reusable, nestable code</em>. You can learn more about React in the next section. But first, let's
+						as well as to describe the appearance and behavior of your UI using React components: <span
+							class="italic">bundles of
+							reusable, nestable code</span>. You can learn more about React in the next section. But first,
+						let's
 						cover how components work in React Native.</p>
 				</div>
 			</section>
 			<section class="section">
-				<header class="section-header">
+				<div class="section-header">
 					<h2 class="section-title">REACT FUNDAMENTALS</h2>
 					<span class="chapter-number">Chapter 3</span>
-				</header>
+				</div>
 				<div class="section-content">
-					<p>React Native runs on <strong>React</strong>, a popular open source library for building user
+					<p>React Native runs on <a href="#" class="link">React</a>, a popular open source library for building
+						user
 						interfaces
 						with JavaScript. To make the most of React Native, it helps to understand React itself. This section
 						can
 						get you started or can serve as a refresher course.</p>
-					<p>We're going to cover the core concepts behind React:</p>
+					<p class="text-concept">We're going to cover the core concepts behind React:</p>
 					<div class="concept-item">
-						<p><strong>+ components.</strong> The rest of this introduction to React uses cats in its examples:
-							friendly, approachable creatures that need names and a cafe to work in.</p>
+						<p><span class="bold">+ components.</p>span> The rest of this introduction to React uses cats in its
+						examples:
+						friendly, approachable creatures that need names and a cafe to work in.</p>
 					</div>
 					<div class="concept-item">
-						<p><strong>+ JSX.</strong> React and React Native use JSX, a syntax that lets you write elements
+						<p><span class="bold">+ JSX.</span> React and React Native use JSX, a syntax that lets you write
+							elements
 							inside
 							JavaScript like so: <span class="inline-code">&lt;Text&gt;Hello, I am your
 								cat!&lt;/Text&gt;</span>.</p>
@@ -76,10 +81,11 @@
 						the
 						cat, name, and embedding it with curly braces inside <span class="inline-code">&lt;Text&gt;</span></p>
 					<div class="concept-item">
-						<p><strong>+ props.</strong> Props is short for "properties".</p>
+						<p><span class="bold">+ props.</span> Props is short for "properties".</p>
 					</div>
 					<div class="concept-item">
-						<p><strong>+ state.</strong> While you can think of props as arguments you use to configure how
+						<p><span class="bold">+ state.</span> While you can think of props as arguments you use to configure
+							how
 							components render, state is like a component's personal data storage. State is useful for handling
 							data that changes over time or that comes from user interaction. State gives your components
 							memory!
@@ -88,14 +94,14 @@
 				</div>
 			</section>
 			<section class="section">
-				<header class="section-header">
+				<div class="section-header">
 					<h2 class="section-title">HANDLING TEXT INPUT</h2>
 					<span class="chapter-number">Chapter 4</span>
-				</header>
+				</div>
 				<div class="section-content">
 					<p><span class="inline-code">TextInput</span> is a Core Component that allows the user to enter text. It
 						has
-						an <span class="inline-code">onChangeText</span> prop that takes a function to be called every time
+						an <span class="italic">onChangeText</span> prop that takes a function to be called every time
 						the
 						text changed, and an onSubmitEditing prop that takes a function to be called when the text is
 						submitted.

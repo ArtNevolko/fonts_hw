@@ -14,5 +14,85 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 20px;
+}
+
+.header {
+	padding: 13px 0px;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-lang {
+	font-family: "Tourney", sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	margin-right: 50px;
+}
+
+.nav-item {
+	font-family: "Staatliches", sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.section,
+.header {
+	margin-bottom: 70px;
+}
+
+.section-header {
+	display: flex;
+	padding-bottom: 40px;
+	gap: 16px;
+}
+
+.section-title {
+	font-family: "Francois One", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.chapter-number {
+	font-family: "Farro", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	font-style: normal;
+}
+
+.section-content {
+	font-size: 28px;
+	line-height: 1.7;
+}
+
+.text-concept,
+.concept-item p {
+	margin: 40px 0px;
+}
+
+.concept-item {
+	margin: 16px 0;
+}
+
+.bold {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.link {
+	color: #000;
+	text-decoration: underline;
+	transition: opacity 0.2s ease;
+}
+
+.inline-code {
+	background: rgb(198, 198, 198);
 }
