@@ -9,7 +9,6 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	line-height: 48px;
-	/* position: relative; */
 }
 
 .container {
@@ -92,10 +91,6 @@ body {
 	height: 2px;
 	background: #e0e0e0;
 }
-
-/* .side-link:last-child {
-	border-bottom: none;
-} */
 
 .main-content {
 	flex: 1 1 0;
